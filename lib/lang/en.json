@@ -1,0 +1,19 @@
+{
+  "home_page": "Home Page",
+  "personal_info": "Personal Information",
+  "name_key":"Name",
+  "email_key": "Email Id",
+  "pass_key": "Password",
+  "submit_key": "Login",
+  "drawer_head": "Drawer Header",
+  "item_one": "Item 1",
+  "item_two": "Item 2",
+  "item_three": "Item 3",
+  "forgot_password": "Forgot Password?",
+  "sign_up": "Signup",
+  "sign_up_page": "SignUp Page",
+  "name_key": "Name",
+  "email_key": "Email",
+  "phone_key": "Phone",
+  "password_key": "Password"
+}

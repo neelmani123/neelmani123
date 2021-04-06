@@ -1,0 +1,19 @@
+{
+  "home_page": "होमपेज",
+  "personal_info": "व्यक्तिगत जानकारी",
+  "name_key"     :   "नाम",
+  "email_key": "ईमेल आईडी",
+  "pass_key": "पासवर्ड",
+  "submit_key": "लॉग इनं",
+  "drawer_head": "दराज",
+  "item_one": "वस्तु 1",
+  "item_two": "वस्तु 2",
+  "item_three": "वस्तु 3",
+  "forgot_password": "पासवर्ड भूल गए?",
+  "sign_up": "साइन अप करें",
+  "sign_up_page": "पंजीकरण पृष्ठ",
+  "name_key": "नाम",
+  "email_key": "ईमेल",
+  "phone_key": "फ़ोन",
+  "password_key": "पासवर्ड"
+}
