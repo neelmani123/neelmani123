@@ -45,12 +45,21 @@ class _SignUpState extends State<SignUp> {
                     hintText: 'Enter Your  full name',
                     labelText: getTranslated(context, 'name_key')
                   ),
-                  validator: (value) {
+                  /*validator: (value) {
                     if (value.isEmpty) {
                       return 'Please enter some text';
                     }
                     return null;
-                  },
+                  },*/
+                  validator: (value)
+                  {
+                    if(value.length<3)
+                      {
+                       return 'Name must be three letter';
+
+                      }
+                    return null;
+                },
                 ),
                 SizedBox( height: MediaQuery.of(context).size.width * 0.1,),
                 TextFormField(
@@ -84,8 +93,8 @@ class _SignUpState extends State<SignUp> {
                       labelText: getTranslated(context, 'phone_key')
                   ),
                   validator: (value) {
-                    if (value.isEmpty) {
-                      return 'Please enter Phone Number';
+                    if (value.length !=10) {
+                      return 'Mobile Number must be of 10 digit';
                     }
                     return null;
                   },
@@ -102,8 +111,8 @@ class _SignUpState extends State<SignUp> {
                       labelText: getTranslated(context, 'password_key')
                   ),
                   validator: (value) {
-                    if (value.isEmpty) {
-                      return 'Please enter password';
+                    if (value.length< 4) {
+                      return 'Password must be 4 digit';
                     }
                     return null;
                   },
